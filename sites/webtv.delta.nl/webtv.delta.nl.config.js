@@ -17,6 +17,7 @@ module.exports = {
       programs.push({
         title: item.title,
         image: item.images.thumbnail.url,
+        icon: item.images.thumbnail.url,
         description: details.description,
         start: parseStart(item).toJSON(),
         stop: parseStop(item).toJSON()
